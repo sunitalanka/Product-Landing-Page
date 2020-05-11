@@ -1,0 +1,269 @@
+
+  html, body {
+  margin: 0;
+}
+header {
+  width: 50vm;
+  background: url(https://cdn.hipwallpaper.com/i/58/31/EgZF2n.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vm;
+}
+
+@media (min-width: 600px) {
+  header {
+    height: 100vh;
+  }
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 1.8em;
+  font-family: pattaya;
+  font-size: 3.5em;
+  
+}
+#header-img {
+  max-width: 50px;
+  position: absolute;
+  left : 1em;
+  padding-top :1.5em ;
+ 
+}
+@media (max-width: 420px) {
+  #header-img {
+    display: none;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  padding: .8em;
+  margin: 0;
+  font-family: archivo;
+}
+ul {
+  background: black;
+}
+@media (max-width: 600px) {
+  header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: archivo;
+  }
+}
+  
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+.nav-link:hover {
+  color: black;
+  background: white;
+}
+
+main{
+  margin: 0 auto;
+  min-width: 330px;
+  padding-top: 4em;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5em;
+  font-family: archivo;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+#one,#two,#three,#four {
+  width: 50%;
+}
+@media (min-width: 600px) {
+  #wrapper {
+    flex-direction: row;
+    height: 300px;
+  }
+  #one,#two,#three,#four {
+    width: 400px;
+    padding: 2em;
+  }
+  ol {
+    display: none;
+  }
+   #one-text {
+    list-style-type: none;
+    text-align: center;
+  }
+ #wrapper-two {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: archivo;
+    padding-bottom: 8em;
+    font-size: 23px;
+    line-height: 2em;
+    max-width: 1200px;
+    padding-right: 1em;
+  }
+   #one-text {
+    list-style-type: none;
+    text-align: center;
+  }
+  #two-text {
+    list-style-type: none;
+    text-align: center;
+  }
+   #three-text {
+    list-style-type: none;
+    text-align: center;
+  }
+   #four-text {
+    list-style-type: none;
+    text-align: center;
+  }
+  mark {
+    background-color: #373737;
+    color: white;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  mark {
+    color: white;
+    background-color: #373737;
+    padding: 3px;
+  }
+  li {
+    line-height: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+  #wrapper-two {
+    display: none;
+  }
+}
+#video {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px){
+  #video {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px){
+  #video {
+    width: 200px;
+  }
+}
+#video-intro {
+  font-family: archivo;
+  text-align: center;
+  padding: 2em;
+  background: #FEDCD2;
+  padding-top: 1em;
+  font-size: 25px;
+}
+
+#intro-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1050px;
+  padding-bottom: 3em;
+}
+h3 {
+  font-family: 'pattaya';
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+h4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5em;
+  font-family: arial;
+  text-align: center;
+  font-size: 20px;
+}
+
+#form {
+  padding: 1em;
+  text-align: center;
+  padding-bottom: 8em;
+}
+
+#bottom {
+  background: #F8EEE7;
+  padding: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#email {
+  padding: .8em;
+  width: 500px;
+  text-align: center;
+}
+@media (max-width: 500px){
+  #email {
+    width: 200px;
+  }
+}
+
+
+footer {
+  padding: 4em;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: archivo;
+}
+
+.twitter {
+  text-decoration: none;
+  float: right;
+}
+
+.contact {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .contact {
+    display: block;
+  }
+  .twitter {
+    display: none;
+  }
+}
+
